@@ -1,4 +1,4 @@
-# CNN for Genshin Impact Charater Classification
+# CNN for Genshin Impact Character Classification
 
 This is Convolutional Neural Network (CNN) architecture designed to classify images of characters from **Genshin Impact**! It draws inspiration from the elegant simplicity of **VGGNet**, integrating deep convolutional layers with modern image augmentation techniques for better generalization.
 
