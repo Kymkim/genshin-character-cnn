@@ -11,7 +11,7 @@ MKNet follows a VGG-inspired design with these magical components:
 - **Convolutional Layers**: Stacked 3x3 convolutions with padding to preserve spatial resolution similar to what VGGNet has implemented. It begins with a `Conv2d` layer transforming the input image with 3 channels (RGB) into 32 feature maps.
 - **Activation Functions**: Non-linear ReLU activations are used to introduce non-linearity
 - **Pooling Layers**: `MaxPool2d` layers reduce dimensionality while keeping the most important features.
-- 🧮 **Fully Connected Layers**: At the end of the convolutional journey, a few fully connected (dense) layers bring everything together to make the final prediction.
+- **Fully Connected Layers**: At the end of the convolutional journey, a few fully connected (dense) layers bring everything together to make the final prediction.
 
 ## Data Transformation
 
