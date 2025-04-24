@@ -6,7 +6,7 @@ This is Convolutional Neural Network (CNN) architecture designed to classify ima
 
 ## Architecture Overview
 
-MKNet follows a VGG-inspired design with these magical components:
+This CNN model follows a VGG-inspired design with these magical components:
 
 - **Convolutional Layers**: Stacked 3x3 convolutions with padding to preserve spatial resolution similar to what VGGNet has implemented. It begins with a `Conv2d` layer transforming the input image with 3 channels (RGB) into 32 feature maps.
 - **Activation Functions**: Non-linear ReLU activations are used to introduce non-linearity
